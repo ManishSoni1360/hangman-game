@@ -1,0 +1,46 @@
+{
+  "Index": {
+    "title": "Hallo Welt!"
+  },
+  "Login": {
+    "log-in": "Einloggen",
+    "sign-up": "Anmelden",
+    "login-message": "Bitte einloggen oder anmelden, um ein neues Konto zu erstellen!",
+    "email*": "E-Mail*",
+    "password*": "Passwort*",
+    "forget-password": "Passwort vergessen",
+    "email-invalid": "E-Mail ist ungültig",
+    "password-invalid": "Passwort ist ungültig",
+    "email-password-incorrect": "Entweder E-Mail oder Passwort ist falsch"
+  },
+  "Navbar": {
+    "logout": "Abmelden",
+    "reset-password": "Passwort zurücksetzen",
+    "dashboard-redirect": "Klicken, um zur Dashboard-Seite zu gelangen",
+    "files": "Dateien"
+  },
+  "Home": {
+    "gaming-history": "Deine Spielverlauf",
+    "no-previous-history": "Kein vorheriger Verlauf"
+  },
+  "Game": {
+    "hangman-game": "Galgenmännchen-Spiel",
+    "word": "Wort",
+    "state": "Status",
+    "incorrect-guesses": "Falsche Vermutungen",
+    "remaining-guesses": "Verbleibende Vermutungen",
+    "guessBtn": "Raten",
+    "go-back": "Zurück",
+    "new-game": "Neues Spiel",
+    "enter-name": "Namen eingeben",
+    "saveBtn": "Speichern",
+    "closeBtn": "Schließen",
+    "loading": "Laden",
+    "game-name": "Spielname",
+    "status": "Status",
+    "word-status": "Wortstatus",
+    "incorrect-guess-left": "Falsche Vermutung übrig",
+    "completed": "Abgeschlossen",
+    "continue": "Fortsetzen"
+  }
+}

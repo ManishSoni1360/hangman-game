@@ -1,0 +1,46 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "Login": {
+    "log-in": "Log-In",
+    "sign-up": "Sign-Up",
+    "login-message": "Please login or Sign-up to create a new account!",
+    "email*": "Email*",
+    "password*": "Password*",
+    "forget-password": "Forget Password",
+    "email-invalid": "Email is invalid",
+    "password-invalid": "Password is invalid",
+    "email-password-incorrect": "Either email or password is incorrect"
+  },
+  "Navbar": {
+    "logout": "Logout",
+    "reset-password": "Reset Password",
+    "dashboard-redirect": "Click to go to the dashboard Page",
+    "files": "Files"
+  },
+  "Home": {
+    "gaming-history": "Your Gaming History",
+    "no-previous-history": "No Previous History"
+  },
+  "Game": {
+    "hangman-game": "Hangman Game",
+    "word": "Word",
+    "state": "State",
+    "incorrect-guesses": "Incorrect Guesses",
+    "remaining-guesses": "Remaining Guesses",
+    "guessBtn": "Guess",
+    "go-back": "Go Back",
+    "new-game": "New Game",
+    "enter-name": "Enter the name",
+    "saveBtn": "Save",
+    "closeBtn": "Close",
+    "loading": "Loading",
+    "game-name": "Game Name",
+    "status": "Status",
+    "word-status": "Word Status",
+    "incorrect-guess-left": "Incorrect Guess Left",
+    "completed": "Completed",
+    "continue": "Continue"
+  }
+}
