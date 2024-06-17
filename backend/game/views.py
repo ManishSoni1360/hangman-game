@@ -58,7 +58,7 @@ def guess(request, game_id):
 
     if set(game.word.lower()) <= set(game.guessed_letters.lower()):
         game.state = "Won"
-    elif game.incorrect_guesses > game.max_incorrect_guesses():
+    elif game.incorrect_guesses >= game.max_incorrect_guesses():
         game.state = "Lost"
 
     game.save()

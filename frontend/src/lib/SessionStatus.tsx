@@ -6,7 +6,8 @@ import { ReactNode, useEffect } from "react";
 const SessionStatus = ({ children }: { children: ReactNode }) => {
   const { status: sessionStatus } = useSession();
   const router = useRouter();
-  const pathname = usePathname();
+  const path = usePathname();
+  const pathname = path.split("/").at(-1);
 
   useEffect(() => {
     if (sessionStatus !== "loading") {

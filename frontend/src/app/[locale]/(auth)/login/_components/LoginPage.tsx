@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import LoginImage from "@/../public/login/background.svg";
 import FormHeader from "./FormHeader";
 import FormBody from "./FormBody";
@@ -12,6 +12,7 @@ import { useTranslations } from "next-intl";
 
 const LoginPage = () => {
   const t = useTranslations("Login");
+  const { status: sessionStatus } = useSession();
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -40,6 +41,9 @@ const LoginPage = () => {
     if (res?.ok) router.push("/");
     else toast.error(t("email-password-incorrect"));
   };
+
+  if (sessionStatus === "loading" || sessionStatus === "authenticated")
+    return null;
 
   return (
     <div className="flex flex-row items-center justify-center bg-white text-sm overflow-hidden -mt-[3rem]">

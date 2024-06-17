@@ -82,7 +82,7 @@ const GamePage = () => {
     toast.success("You won the game, start a new game");
 
   if (gameState.state.toLowerCase().includes("lost"))
-    toast.success("You lost the game, start a new game");
+    toast.error("You lost the game, start a new game");
 
   return (
     <div className="flex flex-col items-center min-h-screen pt-5 bg-gray-100 rounded-md">

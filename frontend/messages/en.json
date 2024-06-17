@@ -16,7 +16,7 @@
   "Navbar": {
     "logout": "Logout",
     "reset-password": "Reset Password",
-    "dashboard-redirect": "Click to go to the dashboard Page",
+    "dashboard-redirect": "Click to go to the home Page",
     "files": "Files"
   },
   "Home": {

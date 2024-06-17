@@ -16,7 +16,7 @@
   "Navbar": {
     "logout": "Abmelden",
     "reset-password": "Passwort zurücksetzen",
-    "dashboard-redirect": "Klicken, um zur Dashboard-Seite zu gelangen",
+    "dashboard-redirect": "Klicken, um zur Home-Seite zu gelangen",
     "files": "Dateien"
   },
   "Home": {
